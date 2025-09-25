@@ -13,7 +13,7 @@ public class Inventory {
     private long id;
     private String name; 
     private String cat; 
-    private int stock;
+    private int stockNum;
 
     public int getStock() {
         return stock;
@@ -49,3 +49,4 @@ public class Inventory {
     
     
 }
+
