@@ -40,11 +40,11 @@ public class Pract_Week1_Week3 {
         inv[2] = (inv3);
         
         Inventory inv4 = new Inventory();
-        inv3.setId(15); 
-        inv3.setName("Crayon");
-        inv3.setCat("Crayons");
+        inv4.setId(15); 
+        inv4.setName("Crayon");
+        inv4.setCat("Crayons");
         
-        inv[3] = (inv3);
+        inv[3] = (inv4);
         
         for(Inventory in:inv){
             System.out.print(in.getCat() + " " + in.getId() + " " + in.getName() + "\n"); 
