@@ -15,12 +15,12 @@ public class Inventory {
     private String cat; 
     private int stockNum;
 
-    public int getStock() {
-        return stock;
+    public int getStockNum() {
+        return stockNum;
     }
 
-    public void setStock(int stock) {
-        this.stock = stock;
+    public void setStockNum(int stock) {
+        this.stockNum = stock;
     }
 
     public long getId() {
