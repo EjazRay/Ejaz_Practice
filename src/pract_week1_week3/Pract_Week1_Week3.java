@@ -22,13 +22,14 @@ public class Pract_Week1_Week3 {
         inv1.setId(12); 
         inv1.setName("Pen");
         inv1.setCat("Pens");
+        inv1.setStocked(1);
         inv[0] = (inv1);
         
         Inventory inv2 = new Inventory();
         inv2.setId(13); 
         inv2.setName("Pencil");
         inv2.setCat("Pencils");
-        
+        inv2.setStocked(1);
         inv[1] = (inv2);
         
         
@@ -36,14 +37,14 @@ public class Pract_Week1_Week3 {
         inv3.setId(14); 
         inv3.setName("Marker");
         inv3.setCat("Markers");
-        
+        inv3.setStocked(1);
         inv[2] = (inv3);
         
         Inventory inv4 = new Inventory();
         inv4.setId(15); 
         inv4.setName("Crayon");
         inv4.setCat("Crayons");
-        
+        inv4.setStocked(1);
         inv[3] = (inv4);
         
         for(Inventory in:inv){
@@ -52,3 +53,4 @@ public class Pract_Week1_Week3 {
     }
     
 }
+
