@@ -16,7 +16,7 @@ public class Pract_Week1_Week3 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Inventory inv[] = new Inventory[3]; 
+        Inventory inv[] = new Inventory[4]; 
         
         Inventory inv1 = new Inventory();
         inv1.setId(12); 
@@ -39,6 +39,12 @@ public class Pract_Week1_Week3 {
         
         inv[2] = (inv3);
         
+        Inventory inv4 = new Inventory();
+        inv3.setId(15); 
+        inv3.setName("Crayon");
+        inv3.setCat("Crayons");
+        
+        inv[3] = (inv3);
         
         for(Inventory in:inv){
             System.out.print(in.getCat() + " " + in.getId() + " " + in.getName() + "\n"); 
