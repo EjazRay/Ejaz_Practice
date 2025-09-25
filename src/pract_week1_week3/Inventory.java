@@ -13,6 +13,15 @@ public class Inventory {
     private long id;
     private String name; 
     private String cat; 
+    private int stock;
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
+    }
 
     public long getId() {
         return id;
