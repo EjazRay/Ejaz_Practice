@@ -50,10 +50,11 @@ public class Pract_Week1_Week3 {
         for(Inventory in:inv){
             System.out.print(in.getCat() + " " + in.getId() + " " + in.getName() + "\n"); 
         }
-        // i removed what i wrote here
+        // test 2
         
     }
     
 }
+
 
 
